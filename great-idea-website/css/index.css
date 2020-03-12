@@ -82,9 +82,13 @@ nav a {
 	vertical-align: super;
 }
 
+nav a:hover {
+	color: green;
+}
+
 header {
 	text-align: center;
-	padding: 5%;
+	padding: 11% 5%;
 }
 
 .head-left {
@@ -148,4 +152,30 @@ button:hover {
 	display: inline-block;
 	width: 100%;
 	position: relative;
+}
+
+.services , .product , .vision {
+	display: inline-block;
+	width: 30%;
+	text-align: justify;
+	margin: 10% 1.5%;
+}
+
+.bottom-container {
+	border-bottom: 1px solid black;
+}
+
+.contact {
+	margin: 10% 0;
+}
+
+.contact-text {
+	font-size: 18px;
+	line-height: 1.5;
+}
+
+footer {
+	color: gray;
+	text-align: center;
+	margin: 5%;
 }
