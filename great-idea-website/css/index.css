@@ -85,6 +85,10 @@ nav {
 	filter: drop-shadow(1px 1px 10px gray);
 }
 
+nav img {
+	margin-left: 100px;
+}
+
 .logo {
 	position: relative;
 	animation: bounce .8s ease-in 1s infinite alternate ;
@@ -216,4 +220,23 @@ footer {
 	background-color: rgb(216, 209, 195);
 	display: block;
 	filter: drop-shadow(0 0 5px rgb(151, 148, 148));
+}
+
+.fas {
+	position: absolute;
+	right: 150px;
+	bottom: 150px;
+	font-size: 40px;
+	z-index: 10000000000;
+	color: black;
+	animation: pulse 1s ease-in 1s infinite alternate;
+}
+
+@keyframes pulse {
+	from {
+		transform: skew(-0.06turn, 18deg);
+	}
+	to {
+		transform: skew(0.06turn, -18deg);
+	}
 }
